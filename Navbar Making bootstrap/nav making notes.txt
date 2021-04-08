@@ -1,0 +1,38 @@
+NAVBAR MAKING:
+
+sticky-top header ke tag me nhi chalega hme nav ke tag ko bahir rkhna hoga.
+agr sticky-top ko chalana hai header ke andr to header ko class deny parhegy sticky-top ki.For Ex agr header me srf nav hai koi dsra social header nhi hai to hm lelengy nav ko header me aur header ko class dedengy sti...WRna nav ko akele header ke bahir hy lo to behtr hai.
+
+3 line menu bar agr to hme apna lgana hai jisme mrzi se color kren to button ke tag me span ka tag hata ke font awesome lelngy.
+
+agr hm navbar-li8 class hata te hain to 3 bars colorless hojaty hai.
+
+steps:
+1-copy navbar of dropdn frm bootstrap.
+2-Nav ko kisi div ya header me nahi lengy agr sticky-top ki class chalani hai .
+3-nav ke tag ke baad saari cheezen container me lelngy.
+4-ul ke tag se pehlr mr-auto ki div lelngy aur usse wahin close krdengy.
+5-nav ke tag me se bg-li8 aur nav-l8 class hata dengy phir navbar ko css me leke ke bg color dedengy aur .navbar a ko leke buttons ko color ko dedengy.
+6- 3 line menu bar agr to hme apna lgana hai jisme mrzi se color kren to button ke tag me span ka tag hata ke font awesome lelngy.
+
+agr hm navbar-li8 class hata te hain to 3 bars colorless hojaty hai.i ke tag me hy class leke usse color dedengy.
+
+7-Scroll ke liye media querry lagaengy 990px pr overflow chalane ke liye height dena laazmi hai wrna nhi hoga scroll.
+8-Laptop large screen pr hover pe dropdown menu ajaye to uske liye media query min-width: 995px leke :
+@media only screen and (min-width: 995px){
+    .dropdown:hover .dropdown-menu{
+        display: block;
+        margin-top: 10px;
+    }
+
+ye hover krne pr mouse list pr atay atay gap me list hat rhy to for empty gap ye lagate hain.
+
+    .dropdown-menu:before{
+        content: "";
+        height: 48px ;
+        display: block;
+        position:absolute;
+        top: -27px;
+        width: 100%;
+    }
+}

@@ -1,0 +1,49 @@
+.box {
+    height: 2000px;
+    background-color: darkgreen;
+}
+
+.navbar {
+    background-color: #ffffff;
+
+}
+
+.navbar a {
+    font-size: 15px;
+    color: rgb(80, 106, 133);
+    font-weight: bold;
+
+}
+
+.nav-bars {
+    color: rgb(80, 106, 133);
+}
+
+
+@media only screen and (max-width: 990px) {
+    .navbar-collapse {
+        overflow: scroll;
+        height: 250px;
+    }
+}
+
+@media only screen and (min-width: 995px) {
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 10px;
+    }
+
+    .dropdown-menu:before {
+        content: "";
+        height: 48px;
+        display: block;
+        position: absolute;
+        top: -27px;
+        width: 100%;
+    }
+
+    .nav-item:last-child {
+        margin-left: 120px;
+    }
+
+}
