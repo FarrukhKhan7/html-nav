@@ -1,0 +1,12 @@
+Kisi bhi cheez ko screen pe fixed krne ke liye :
+position : fixed rkhte hain
+.navbar{
+
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    
+}
+===============================================================
+position: sticky bhi hoti hai agr kisi cheez ko scroll krte hwe stick karana to
